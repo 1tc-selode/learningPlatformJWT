@@ -117,22 +117,12 @@ cd learningPlatformJWT
 ### 2. .env Fájl Konfiguráció
 
 ```env
-APP_NAME=LearningPlatformJWT
-APP_ENV=local
-APP_KEY=base64:...
-APP_DEBUG=true
-APP_TIMEZONE=UTC
-APP_URL=http://localhost/learningPlatformJWT/public
-
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=learning_platform
 DB_USERNAME=root
 DB_PASSWORD=
-
-JWT_SECRET=your_jwt_secret_here
-JWT_ALGO=HS256
 ```
 
 ### 3. JWT Auth Telepítése
