@@ -40,6 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'api' => [
+            'driver' => 'jwt', // <-- Állítsd át a drivert 'jwt'-re
+            'provider' => 'users',
+        ],
     ],
 
     /*
